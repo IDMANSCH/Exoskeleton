@@ -1,0 +1,21 @@
+[Unit]
+Description=Exoskeleton ROS2 gateway
+Documentation=file:///home/robot/ros2_ws/README.md
+Requires=docker.service
+Wants=network-online.target bluetooth.service
+After=docker.service network-online.target bluetooth.service dev-ttyUSB0.device
+
+[Service]
+Type=simple
+WorkingDirectory=/home/robot/ros2_ws
+ExecStartPre=-/usr/bin/docker rm -f exo-gateway-ros2
+ExecStart=/usr/bin/docker run --name exo-gateway-ros2 --network host --privileged -v /dev:/dev -v /run/dbus:/run/dbus -v /home/robot/ros2_ws:/root/ros2_ws -v /home/robot:/home/robot ros:jazzy-ros-base /bin/bash -lc "exec /root/ros2_ws/scripts/run_gateway.sh"
+ExecStop=/usr/bin/docker stop -t 20 exo-gateway-ros2
+ExecStopPost=-/usr/bin/docker rm -f exo-gateway-ros2
+Restart=always
+RestartSec=5
+TimeoutStopSec=20
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target

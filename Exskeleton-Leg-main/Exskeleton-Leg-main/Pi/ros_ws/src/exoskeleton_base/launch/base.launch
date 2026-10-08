@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="exoskeleton_base" type="base_node.py" name="exoskeleton_base" output="screen">
+    <param name="publish_rate_hz" value="10.0" />
+  </node>
+</launch>

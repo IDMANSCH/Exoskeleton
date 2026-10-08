@@ -1,0 +1,263 @@
+{
+  "Errors": {
+    "AnUnknownErrorOccurred": "Lỗi không xác định",
+    "NetworkError": "Hãy kiểm tra kết nối mạng của bạn",
+    "InvalidUsernameOrPassword": "Email hoặc mật khẩu không đúng",
+    "EmailAlreadyExists": "Email này đã được sử dụng",
+    "TermsNotAccepted": "Bạn cần xác nhận điều khoản sử dụng"
+  },
+  "App": {
+    "Name": "Exoskeleton Leg"
+  },
+  "Common": {
+    "Email": "Email",
+    "Password": "Mật khẩu",
+    "Retry": "Thử lại",
+    "View": "Xem",
+    "ViewExercises": "Xem bài tập",
+    "Notifications": "Thông báo",
+    "Locale": "Mã ngôn ngữ",
+    "Timezone": "Múi giờ",
+    "Ok": "Đã hiểu",
+    "Description": "Mô tả",
+    "Instructions": "Hướng dẫn",
+    "Safety": "An toàn",
+    "Logout": "Đăng xuất",
+    "LoggingOut": "Đang đăng xuất",
+    "Language": "Ngôn ngữ",
+    "English": "Tiếng Anh",
+    "Vietnamese": "Tiếng Việt",
+    "NotEnoughData": "Chưa đủ dữ liệu",
+    "Minutes": "{} phút",
+    "ApproxMinutes": "Khoảng {} phút",
+    "SetsReps": "{} hiệp x {} lần",
+    "ProviderComingSoon": "{} sẽ được hỗ trợ trong bản tiếp theo."
+  },
+  "Exercises": {
+    "Disclaimer": "Chỉ tập các bài đã được chuyên viên duyệt cho bạn. Dừng lại nếu đau, chóng mặt hoặc chân yếu đột ngột.",
+    "SitToStand": {
+      "Name": "Đứng lên và ngồi xuống",
+      "Description": "Tăng sức mạnh chân cho động tác chuyển tư thế có kiểm soát.",
+      "Instructions": "Ngồi gần mép ghế chắc chắn. Đặt hai bàn chân dưới đầu gối, nghiêng người về trước và đứng lên chậm. Đưa người về ghế rồi ngồi xuống có kiểm soát.",
+      "Safety": "Giữ ghế phía sau và dùng tay vịn hoặc điểm tựa chắc chắn khi cần. Không vội và không để đầu gối đổ vào trong."
+    },
+    "SupportedKneeRaise": {
+      "Name": "Nâng gối có hỗ trợ",
+      "Description": "Luyện gấp hông và chuyển trọng lượng khi đứng.",
+      "Instructions": "Đứng thẳng và vịn vào điểm tựa chắc chắn. Từ từ nâng một gối, hạ xuống rồi đổi bên.",
+      "Safety": "Luôn giữ hai tay hoặc điểm tựa theo chỉ định. Giữ thân người thẳng và dừng lại nếu mất an toàn thăng bằng."
+    },
+    "SeatedKneeExtension": {
+      "Name": "Duỗi gối khi ngồi",
+      "Description": "Kích hoạt cơ đùi trước bằng chuyển động ngồi có kiểm soát.",
+      "Instructions": "Ngồi thẳng, hai bàn chân được đỡ. Từ từ duỗi một gối, giữ ngắn rồi hạ chân xuống có kiểm soát.",
+      "Safety": "Chỉ vận động trong biên độ thoải mái do chuyên viên chỉ định. Không đá chân hoặc khóa gối mạnh."
+    },
+    "HeelRaises": {
+      "Name": "Nhón gót có điểm tựa",
+      "Description": "Tăng sức mạnh cơ bắp chân để hỗ trợ đứng và đi.",
+      "Instructions": "Đứng sau ghế chắc chắn hoặc cạnh bàn. Từ từ nhón lên mũi chân, giữ ngắn rồi hạ gót xuống có kiểm soát.",
+      "Safety": "Dùng điểm tựa trong suốt bài tập. Giữ trọng lượng đều và không tập không có hỗ trợ nếu thăng bằng hạn chế."
+    },
+    "StraightLegRaise": {
+      "Name": "Nâng chân thẳng",
+      "Description": "Tăng kiểm soát cơ đùi trước mà không lặp lại động tác gập gối.",
+      "Instructions": "Nằm ngửa, một gối co và chân kia duỗi. Siết cơ đùi, từ từ nâng chân thẳng rồi hạ xuống.",
+      "Safety": "Giữ gối thẳng nhưng không ép. Dừng lại nếu đau tăng hoặc không kiểm soát được chân."
+    },
+    "HeelSlides": {
+      "Name": "Trượt gót chân",
+      "Description": "Tập gập và duỗi gối nhẹ nhàng ở tư thế được hỗ trợ.",
+      "Instructions": "Nằm ngửa. Trượt một gót chân về phía người để gập gối, sau đó từ từ trượt ra để duỗi.",
+      "Safety": "Chỉ tập trong biên độ thoải mái và không ép gối qua điểm đau hoặc điểm cứng."
+    },
+    "QuadSet": {
+      "Name": "Siết cơ đùi tĩnh",
+      "Description": "Khôi phục khả năng kích hoạt cơ đùi trước.",
+      "Instructions": "Nằm hoặc ngồi với chân duỗi. Siết nhẹ mặt trước đùi bằng cách ấn gối xuống, giữ ngắn rồi thả lỏng.",
+      "Safety": "Co cơ nhẹ trong mức thoải mái. Không nín thở hoặc ấn quá mạnh làm đau tăng."
+    },
+    "SupportedHipExtension": {
+      "Name": "Duỗi hông có điểm tựa",
+      "Description": "Tăng sức mạnh cơ duỗi hông khi đứng có hỗ trợ.",
+      "Instructions": "Vịn vào điểm tựa chắc chắn, giữ thân thẳng. Đưa một chân duỗi nhẹ ra sau không ưỡn lưng rồi trở về chậm.",
+      "Safety": "Giữ biên độ nhỏ và có kiểm soát. Không nghiêng người về trước hoặc tập không hỗ trợ nếu thăng bằng hạn chế."
+    },
+    "Walk": {"Name":"Đi bộ","Description":"Luyện đi bộ đều và có kiểm soát cùng bộ khung trợ lực.","Instructions":"Đứng thẳng với điểm tựa theo chỉ định. Bước chậm, đều và nhìn về phía trước.","Safety":"Tập với giám sát và hỗ trợ theo chỉ định. Dừng lại nếu đau, chóng mặt hoặc mất thăng bằng."},
+    "RaiseLeftLeg": {"Name":"Nâng chân trái","Description":"Tăng sức mạnh nâng chân trái có kiểm soát.","Instructions":"Vịn vào điểm tựa chắc chắn, từ từ nâng chân trái, giữ ngắn rồi hạ xuống.","Safety":"Giữ thân thẳng và không vung chân. Dừng lại nếu thăng bằng kém hoặc đau tăng."},
+    "RaiseRightLeg": {"Name":"Nâng chân phải","Description":"Tăng sức mạnh nâng chân phải có kiểm soát.","Instructions":"Vịn vào điểm tựa chắc chắn, từ từ nâng chân phải, giữ ngắn rồi hạ xuống.","Safety":"Giữ thân thẳng và không vung chân. Dừng lại nếu thăng bằng kém hoặc đau tăng."},
+    "KickLeftLeg": {"Name":"Đá chân trái","Description":"Luyện đưa chân trái về trước có kiểm soát.","Instructions":"Vịn điểm tựa, nhẹ nhàng duỗi chân trái ra trước rồi từ từ trở về.","Safety":"Dùng biên độ nhỏ và không giật mạnh đầu gối. Luôn để điểm tựa trong tầm với."},
+    "KickRightLeg": {"Name":"Đá chân phải","Description":"Luyện đưa chân phải về trước có kiểm soát.","Instructions":"Vịn điểm tựa, nhẹ nhàng duỗi chân phải ra trước rồi từ từ trở về.","Safety":"Dùng biên độ nhỏ và không giật mạnh đầu gối. Luôn để điểm tựa trong tầm với."},
+    "KickLeftKnee": {"Name":"Đá đầu gối trái","Description":"Luyện nâng và duỗi đầu gối trái có kiểm soát.","Instructions":"Vịn điểm tựa, nâng đầu gối trái theo chỉ định, nhẹ nhàng duỗi rồi trở về chậm.","Safety":"Không ép biên độ hoặc khóa gối. Dừng lại nếu đau hoặc mất ổn định."},
+    "KickRightKnee": {"Name":"Đá đầu gối phải","Description":"Luyện nâng và duỗi đầu gối phải có kiểm soát.","Instructions":"Vịn điểm tựa, nâng đầu gối phải theo chỉ định, nhẹ nhàng duỗi rồi trở về chậm.","Safety":"Không ép biên độ hoặc khóa gối. Dừng lại nếu đau hoặc mất ổn định."}
+  },
+  "Auth": {
+    "Login": {
+      "Title": "Chào mừng trở lại",
+      "Subtitle": "Đăng nhập để tiếp tục chương trình tập của bạn.",
+      "PasswordHint": "Nhập mật khẩu",
+      "ShowPassword": "Hiện mật khẩu",
+      "HidePassword": "Ẩn mật khẩu",
+      "PasswordRequired": "Vui lòng nhập mật khẩu.",
+      "InvalidEmail": "Vui lòng nhập email hợp lệ.",
+      "CreateAccountLink": "Chưa có tài khoản? Đăng ký"
+    },
+    "Register": {
+      "AppBarTitle": "Tạo tài khoản",
+      "Title": "Bắt đầu tập luyện an toàn",
+      "Subtitle": "Tài khoản mới được tạo với vai trò người tập.",
+      "FullName": "Họ và tên",
+      "FullNameHint": "Nguyễn An",
+      "FullNameRequired": "Vui lòng nhập họ và tên.",
+      "PasswordHint": "Tạo mật khẩu",
+      "PasswordHelper": "Từ 8 đến 128 ký tự.",
+      "PasswordLength": "Mật khẩu cần từ 8 đến 128 ký tự.",
+      "Terms": "Tôi đã đọc và đồng ý với điều khoản sử dụng phiên bản 2026-01.",
+      "TermsRequired": "Bạn cần xác nhận đã đọc điều khoản sử dụng.",
+      "Submit": "Đăng ký",
+      "LoginLink": "Đã có tài khoản? Đăng nhập"
+    },
+    "SocialDivider": "Hoặc tiếp tục với"
+  },
+  "Patient": {
+    "Tabs": {
+      "Today": "Hôm nay",
+      "Training": "Bài tập",
+      "Progress": "Tiến độ",
+      "Device": "Thiết bị",
+      "Profile": "Cá nhân"
+    },
+    "Training": {
+      "Today": "Hôm nay",
+      "All": "Tất cả",
+      "PendingTitle": "{} bài đang chờ",
+      "PendingSubtitle": "Ưu tiên bài hôm nay và kiểm tra thiết bị trước khi tập.",
+      "ViewExerciseTooltip": "Xem bài tập",
+      "Planned": "Đã lên lịch",
+      "InProgress": "Đang tập",
+      "Completed": "Đã hoàn thành",
+      "Skipped": "Đã bỏ qua"
+      ,"ReturningHome": "Đang đưa chân về vị trí ban đầu…"
+      ,"SwitchExerciseFailed": "Không chuyển bài được: {}"
+      ,"ExerciseChanged": "Đã về vị trí ban đầu · đã chọn bài mới"
+      ,"StartingExercise": "Đang khởi động bài tập"
+      ,"StoppingExercise": "Đang đưa chân về vị trí ban đầu"
+      ,"ExtendingExercise": "Đang trở về tư thế ban đầu"
+      ,"FlexingExercise": "Đang nâng/chuyển động lên"
+      ,"RunningExercise": "Đang khởi động bài tập"
+      ,"PausedExercise": "Đã tạm dừng bài tập"
+      ,"CompletedExercise": "Đã hoàn thành bài tập"
+      ,"StoppedExercise": "Đã dừng bài tập"
+      ,"PreparedExercise": "Thiết bị đã sẵn sàng"
+      ,"NotReadyExercise": "Thiết bị chưa sẵn sàng"
+      ,"SelectedExercise": "Đã chọn bài tập"
+    },
+    "Progress": {
+      "Week": "Tuần",
+      "Month": "Tháng",
+      "Completed": "Hoàn thành",
+      "TrainingTime": "Thời gian",
+      "CorrectMoves": "Động tác đạt",
+      "StreakDays": "Chuỗi tập: {} ngày",
+      "RecentHistory": "Lịch sử gần đây",
+      "HeroTitle": "Đã hoàn thành {} / {} bài",
+      "HeroSubtitle": "Tiến độ mới nhất trong khoảng thời gian đã chọn.",
+      "SessionSitStand": "Đứng lên và ngồi xuống",
+      "SessionSitStandSubtitle": "Hôm nay - Hoàn thành 15 / 16 lần",
+      "SessionHipExtension": "Duỗi hông chậm",
+      "SessionHipExtensionSubtitle": "Hôm qua - Buổi tập đã dừng an toàn"
+    },
+    "Device": {
+      "NoDevice": "Chưa ghép thiết bị",
+      "Ready": "Thiết bị đã sẵn sàng",
+      "NeedsCheck": "Thiết bị cần kiểm tra",
+      "Battery": "{} - Pin {}%",
+      "Firmware": "Firmware {}",
+      "SensorsStable": "Cảm biến hoạt động ổn định",
+      "SensorsStableSubtitle": "Hông trái/phải, gối trái/phải đều sẵn sàng",
+      "CalibrationValid": "Hiệu chỉnh còn hiệu lực",
+      "CalibrationExpiry": "Hết hạn sau 31 ngày",
+      "Calibrate": "Hiệu chỉnh",
+      "Diagnostics": "Chẩn đoán",
+      "HeroTitle": "Exoskeleton đang kết nối",
+      "HeroSubtitle": "Pin {}% - {}",
+      "ModelTitle": "Xem thiết bị tương tác",
+      "ModelSubtitle": "Kéo điểm ↕ ở hông lên hoặc xuống để nâng và hạ đùi; kéo điểm ↕ ở gối để gập và duỗi cẳng chân. P/T là điểm cuối chân.",
+      "ModelLoading": "Đang chuẩn bị mô hình thiết bị 3D…",
+      "ModelUnavailable": "Chế độ xem 3D khả dụng trên Android, iOS và web.",
+      "PairedModel": "EXO-SLT đã ghép nối",
+      "ViewDeviceTooltip": "Xem thiết bị",
+      "PairDeviceTitle": "Chưa ghép thiết bị",
+      "PairDeviceMessage": "Ghép thiết bị để bắt đầu bài tập có hỗ trợ.",
+      "NotReady": "Thiết bị chưa sẵn sàng"
+    },
+    "Profile": {
+      "FallbackName": "Người tập",
+      "PatientAccount": "Tài khoản patient",
+      "NoEmail": "Chưa có email",
+      "UploadPhoto": "Tải ảnh lên",
+      "UploadSuccess": "Đã tải ảnh hồ sơ",
+      "UploadFailed": "Chưa tải được ảnh. Kiểm tra cấu hình Cloudinary.",
+      "Role": "Vai trò",
+      "Status": "Trạng thái",
+      "Active": "Đang hoạt động",
+      "AccountSection": "Tài khoản",
+      "SettingsSection": "Cài đặt",
+      "PersonalProfile": "Hồ sơ cá nhân",
+      "PersonalProfileSubtitle": "Tên, ngày sinh, chiều cao và ghi chú trị liệu",
+      "CareNetwork": "Mạng lưới chăm sóc",
+      "CareNetworkSubtitle": "Bác sĩ, người chăm sóc và liên hệ khẩn cấp",
+      "Notifications": "Thông báo",
+      "NotificationsSubtitle": "Bài tập, thiết bị và cảnh báo an toàn",
+      "Accessibility": "Trợ năng",
+      "AccessibilitySubtitle": "Cỡ chữ, tương phản và hỗ trợ thao tác",
+      "Privacy": "Quyền riêng tư",
+      "PrivacySubtitle": "Dữ liệu buổi tập và bảo mật tài khoản",
+      "Help": "Trợ giúp",
+      "HelpSubtitle": "Trung tâm hỗ trợ và hướng dẫn phục hồi",
+      "ChooseLanguage": "Chọn ngôn ngữ hiển thị",
+      "EnglishSubtitle": "Dùng tiếng Anh cho giao diện ứng dụng",
+      "VietnameseSubtitle": "Dùng tiếng Việt cho giao diện ứng dụng"
+    },
+    "Notifications": {
+      "SummaryTitle": "{} cập nhật chưa đọc",
+      "SummaryBody": "Cảnh báo an toàn và thiết bị được gom nhóm để xem nhanh.",
+      "All": "Tất cả",
+      "Unread": "Chưa đọc",
+      "SafetyTitle": "Buổi tập đã dừng an toàn",
+      "SafetyBody": "Mô-men gối vượt ngưỡng thoải mái. Hãy trao đổi với chuyên viên trước khi tập lại.",
+      "SafetyTime": "5 phút trước",
+      "TrainingTitle": "Kế hoạch tập hôm nay đã sẵn sàng",
+      "TrainingBody": "Có ba bài tập đã duyệt đang chờ buổi hướng dẫn tiếp theo.",
+      "TrainingTime": "28 phút trước",
+      "DeviceTitle": "Pin thiết bị còn 78%",
+      "DeviceBody": "Exoskeleton đủ pin cho kế hoạch hiện tại.",
+      "DeviceTime": "1 giờ trước",
+      "CareTitle": "Có ghi chú mới từ chuyên viên",
+      "CareBody": "Chuyên viên đã chỉnh mức hỗ trợ cho bài duỗi hông.",
+      "CareTime": "Hôm qua"
+    },
+    "Home": {
+      "CompletedExercises": "Bài đã tập",
+      "TrainingTime": "Thời gian",
+      "CorrectMoves": "Động tác đạt",
+      "NeedsAttention": "Cần chú ý",
+      "Greeting": "Xin chào, {}",
+      "HeroSubtitle": "Hôm nay mình tập nhẹ và chắc nhé.",
+      "LoadFailedTitle": "Chưa tải được dữ liệu hôm nay",
+      "LoadFailedSubtitle": "Kiểm tra kết nối hoặc thử lại sau.",
+      "NoExerciseTitle": "Hôm nay chưa có bài tập",
+      "NoExerciseSubtitle": "Bạn có thể xem danh sách bài tập đã được duyệt.",
+      "StartExercise": "Bắt đầu bài tập",
+      "Assistance": "Hỗ trợ {}",
+      "AssistanceLow": "thấp",
+      "AssistanceMedium": "vừa",
+      "AssistanceHigh": "cao",
+      "NoAlerts": "Không có cảnh báo cần xem."
+    }
+  },
+  "Hello": "Xin chào",
+  "Username": "Email",
+  "Password": "Mật khẩu",
+  "Login": "Đăng nhập"
+}

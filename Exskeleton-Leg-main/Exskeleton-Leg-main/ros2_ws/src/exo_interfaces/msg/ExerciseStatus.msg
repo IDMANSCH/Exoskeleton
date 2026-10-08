@@ -1,0 +1,13 @@
+string session_id
+string exercise_code
+string state
+string reason
+uint16 completed_repetitions
+uint16 completed_sets
+uint16 target_sets
+uint16 target_repetitions
+uint32 elapsed_ms
+uint32 active_ms
+uint32 repetition_duration_ms
+uint32 total_repetitions
+uint32 target_total_repetitions

@@ -1,0 +1,11 @@
+std_msgs/Header header
+uint8 STATE_DISARMED=0
+uint8 STATE_READY=1
+uint8 STATE_ASSISTING=2
+uint8 STATE_FAULT=3
+uint8 state
+bool estop_active
+bool command_watchdog_ok
+float32 battery_percent
+float32 battery_voltage
+string fault_reason

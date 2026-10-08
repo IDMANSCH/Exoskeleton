@@ -1,0 +1,8 @@
+std_msgs/Header header
+string alert_id
+string device_id
+uint8 predicted_class
+string predicted_label
+float32 fall_probability
+uint32 consecutive_fall_windows
+bool confirmed

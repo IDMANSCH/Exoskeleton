@@ -1,0 +1,10 @@
+std_msgs/Header header
+uint32 sequence
+uint32 sensor_time_ms
+uint8 channel
+float32 ax
+float32 ay
+float32 az
+float32 gx
+float32 gy
+float32 gz

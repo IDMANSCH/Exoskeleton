@@ -1,0 +1,27 @@
+targets:
+  $default:
+    builders:
+      auto_route_generator:auto_route_generator:
+        options:
+          enable_cached_builds: true
+        generate_for:
+          - lib/presenter/pages/**/*.dart
+
+      auto_route_generator:auto_router_generator:
+        options:
+          enable_cached_builds: true
+        generate_for:
+          - lib/presenter/navigation/navigation.dart
+
+      json_serializable:
+        options:
+          field_rename: snake
+
+global_options:
+  freezed:
+    runs_before:
+      - json_serializable
+
+  json_serializable:
+    runs_before:
+      - retrofit_generator

@@ -1,0 +1,95 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.idea/
+.vscode/
+!/.vscode/
+!/.vscode/launch.json
+.agents/
+.codex/
+*.swp
+*.swo
+*~
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+*.log
+logs/
+
+# Rust
+target/
+**/target/
+
+# Flutter / Dart
+Mobile App/.dart_tool/
+Mobile App/.packages
+Mobile App/.flutter-plugins
+Mobile App/.flutter-plugins-dependencies
+Mobile App/build/
+Mobile App/coverage/
+
+# Android / Gradle
+Mobile App/android/.gradle/
+Mobile App/android/app/build/
+Mobile App/android/local.properties
+Mobile App/android/key.properties
+Mobile App/android/**/*.jks
+Mobile App/android/**/*.keystore
+
+# iOS / macOS
+Mobile App/ios/Pods/
+Mobile App/ios/.symlinks/
+Mobile App/ios/Flutter/Flutter.framework
+Mobile App/ios/Flutter/Flutter.podspec
+Mobile App/ios/Flutter/Generated.xcconfig
+Mobile App/ios/Flutter/ephemeral/
+Mobile App/macos/Pods/
+Mobile App/macos/Flutter/ephemeral/
+Mobile App/**/DerivedData/
+
+# Linux / Windows generated Flutter files
+Mobile App/linux/flutter/ephemeral/
+Mobile App/windows/flutter/ephemeral/
+
+# ROS / catkin
+Pi/ros_ws/build/
+Pi/ros_ws/devel/
+Pi/ros_ws/install/
+Pi/ros_ws/logs/
+Pi/ros_ws/.catkin_tools/
+Pi/ros_ws/src/**/__pycache__/
+Pi/ros_ws/src/**/*.pyc
+
+# ROS 2 / colcon
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+ros2_ws/.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+# Firebase Admin credentials must stay outside source control.
+leg/src/main/resources/firebase_admin.json
+leg/firebase_admin.json
+
+sis_fall_har_and_fall-detection_trainning-main/SisFall_dataset_Windowed
+sis_fall_har_and_fall-detection_trainning-main/SisFall_dataset_Processed
+SisFall_dataset_Windowed.zip
+sis_fall_har_and_fall-detection_trainning-main/archive

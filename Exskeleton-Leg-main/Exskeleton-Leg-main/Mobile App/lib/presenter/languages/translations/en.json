@@ -1,0 +1,263 @@
+{
+  "Errors": {
+    "AnUnknownErrorOccurred": "An unknown error occurred",
+    "NetworkError": "Please check your internet connection",
+    "InvalidUsernameOrPassword": "Invalid email or password",
+    "EmailAlreadyExists": "This email is already in use",
+    "TermsNotAccepted": "You must accept the terms of use"
+  },
+  "App": {
+    "Name": "Exoskeleton Leg"
+  },
+  "Common": {
+    "Email": "Email",
+    "Password": "Password",
+    "Retry": "Retry",
+    "View": "View",
+    "ViewExercises": "View exercises",
+    "Notifications": "Notifications",
+    "Locale": "Language code",
+    "Timezone": "Time zone",
+    "Ok": "OK",
+    "Description": "Description",
+    "Instructions": "Instructions",
+    "Safety": "Safety",
+    "Logout": "Log out",
+    "LoggingOut": "Logging out",
+    "Language": "Language",
+    "English": "English",
+    "Vietnamese": "Vietnamese",
+    "NotEnoughData": "Not enough data yet",
+    "Minutes": "{} min",
+    "ApproxMinutes": "About {} min",
+    "SetsReps": "{} sets x {} reps",
+    "ProviderComingSoon": "{} will be supported in the next version."
+  },
+  "Exercises": {
+    "Disclaimer": "Use only the exercises approved for you by your clinician. Stop if you feel pain, dizziness, or sudden weakness.",
+    "SitToStand": {
+      "Name": "Sit to stand",
+      "Description": "Builds functional leg strength for controlled transfers.",
+      "Instructions": "Sit near the front of a stable chair. Place both feet under your knees, lean forward, and stand slowly. Reach back and sit down with control.",
+      "Safety": "Keep the chair behind you and use the armrests or a stable support if needed. Do not rush or let the knees collapse inward."
+    },
+    "SupportedKneeRaise": {
+      "Name": "Supported knee raise",
+      "Description": "Trains hip flexion and weight shifting while standing.",
+      "Instructions": "Stand tall while holding a stable support. Slowly lift one knee, lower it, then repeat on the other side.",
+      "Safety": "Keep both hands or the prescribed support available. Keep your trunk upright and stop if balance becomes unsafe."
+    },
+    "SeatedKneeExtension": {
+      "Name": "Seated knee extension",
+      "Description": "Activates the quadriceps through a controlled seated movement.",
+      "Instructions": "Sit upright with both feet supported. Slowly straighten one knee, pause briefly, then lower the foot with control.",
+      "Safety": "Move only through the comfortable range prescribed by your clinician. Do not kick or lock the knee forcefully."
+    },
+    "HeelRaises": {
+      "Name": "Supported heel raises",
+      "Description": "Strengthens the calf muscles for standing and walking support.",
+      "Instructions": "Stand behind a stable chair or counter. Rise onto your toes slowly, pause, and lower both heels with control.",
+      "Safety": "Use the support throughout. Keep weight even and do not perform this exercise unsupported if balance is limited."
+    },
+    "StraightLegRaise": {
+      "Name": "Straight-leg raise",
+      "Description": "Builds front-thigh control without repeated knee bending.",
+      "Instructions": "Lie on your back with one knee bent and the other leg straight. Tighten the thigh, lift the straight leg slowly, then lower it.",
+      "Safety": "Keep the knee straight without forcing it. Stop if pain increases or the leg cannot be controlled."
+    },
+    "HeelSlides": {
+      "Name": "Heel slides",
+      "Description": "Gently practices knee bending and straightening in a supported position.",
+      "Instructions": "Lie on your back. Slide one heel toward your body to bend the knee, then slide it away slowly to straighten.",
+      "Safety": "Stay within the comfortable range and never force the knee into pain or a hard stop."
+    },
+    "QuadSet": {
+      "Name": "Static quadriceps set",
+      "Description": "Rebuilds the ability to activate the front-thigh muscles.",
+      "Instructions": "Lie or sit with the leg straight. Tighten the front of the thigh by gently pressing the knee down, hold briefly, and relax.",
+      "Safety": "Use a small, comfortable contraction. Do not hold your breath or press so hard that pain increases."
+    },
+    "SupportedHipExtension": {
+      "Name": "Supported hip extension",
+      "Description": "Strengthens the hip extensors while standing with support.",
+      "Instructions": "Hold a stable support with your trunk upright. Move one straight leg gently backward without arching your back, then return slowly.",
+      "Safety": "Keep the movement small and controlled. Do not lean forward or perform without support if balance is limited."
+    },
+    "Walk": {"Name":"Walking","Description":"Practices steady, controlled walking with the exoskeleton.","Instructions":"Stand tall with the prescribed support. Take slow, even steps and keep your gaze forward.","Safety":"Use supervision and support as prescribed. Stop if you feel pain, dizziness, or loss of balance."},
+    "RaiseLeftLeg": {"Name":"Raise left leg","Description":"Builds controlled lifting strength in the left leg.","Instructions":"Hold a stable support, lift the left leg slowly, pause, and lower it with control.","Safety":"Keep your trunk upright and avoid swinging. Stop if balance or pain worsens."},
+    "RaiseRightLeg": {"Name":"Raise right leg","Description":"Builds controlled lifting strength in the right leg.","Instructions":"Hold a stable support, lift the right leg slowly, pause, and lower it with control.","Safety":"Keep your trunk upright and avoid swinging. Stop if balance or pain worsens."},
+    "KickLeftLeg": {"Name":"Kick left leg","Description":"Practices a controlled forward movement of the left leg.","Instructions":"Hold support, extend the left leg gently forward, then return slowly.","Safety":"Use a small range and never snap the knee. Keep support within reach."},
+    "KickRightLeg": {"Name":"Kick right leg","Description":"Practices a controlled forward movement of the right leg.","Instructions":"Hold support, extend the right leg gently forward, then return slowly.","Safety":"Use a small range and never snap the knee. Keep support within reach."},
+    "KickLeftKnee": {"Name":"Kick left knee","Description":"Practices controlled left knee lifting and extension.","Instructions":"Hold support, lift the left knee as prescribed, extend gently, and return slowly.","Safety":"Do not force the range or lock the knee. Stop if pain or instability appears."},
+    "KickRightKnee": {"Name":"Kick right knee","Description":"Practices controlled right knee lifting and extension.","Instructions":"Hold support, lift the right knee as prescribed, extend gently, and return slowly.","Safety":"Do not force the range or lock the knee. Stop if pain or instability appears."}
+  },
+  "Auth": {
+    "Login": {
+      "Title": "Welcome back",
+      "Subtitle": "Sign in to continue your training program.",
+      "PasswordHint": "Enter password",
+      "ShowPassword": "Show password",
+      "HidePassword": "Hide password",
+      "PasswordRequired": "Please enter your password.",
+      "InvalidEmail": "Please enter a valid email.",
+      "CreateAccountLink": "No account yet? Sign up"
+    },
+    "Register": {
+      "AppBarTitle": "Create account",
+      "Title": "Start training safely",
+      "Subtitle": "New accounts are created with the patient role.",
+      "FullName": "Full name",
+      "FullNameHint": "Nguyen An",
+      "FullNameRequired": "Please enter your full name.",
+      "PasswordHint": "Create password",
+      "PasswordHelper": "8 to 128 characters.",
+      "PasswordLength": "Password must be 8 to 128 characters.",
+      "Terms": "I have read and agree to the terms of use version 2026-01.",
+      "TermsRequired": "Please confirm that you have read the terms of use.",
+      "Submit": "Sign up",
+      "LoginLink": "Already have an account? Sign in"
+    },
+    "SocialDivider": "Or continue with"
+  },
+  "Patient": {
+    "Tabs": {
+      "Today": "Today",
+      "Training": "Training",
+      "Progress": "Progress",
+      "Device": "Device",
+      "Profile": "Profile"
+    },
+    "Training": {
+      "Today": "Today",
+      "All": "All",
+      "PendingTitle": "{} exercises pending",
+      "PendingSubtitle": "Prioritize today's exercises and check the device before training.",
+      "ViewExerciseTooltip": "View exercise",
+      "Planned": "Planned",
+      "InProgress": "In progress",
+      "Completed": "Completed",
+      "Skipped": "Skipped"
+      ,"ReturningHome": "Returning to the starting position…"
+      ,"SwitchExerciseFailed": "Could not switch exercise: {}"
+      ,"ExerciseChanged": "Returned to the starting position · selected a new exercise"
+      ,"StartingExercise": "Starting exercise"
+      ,"StoppingExercise": "Returning to the starting position"
+      ,"ExtendingExercise": "Returning to the starting position"
+      ,"FlexingExercise": "Moving up / flexing"
+      ,"RunningExercise": "Starting exercise"
+      ,"PausedExercise": "Exercise paused"
+      ,"CompletedExercise": "Exercise completed"
+      ,"StoppedExercise": "Exercise stopped"
+      ,"PreparedExercise": "Device is ready"
+      ,"NotReadyExercise": "Device is not ready"
+      ,"SelectedExercise": "Exercise selected"
+    },
+    "Progress": {
+      "Week": "Week",
+      "Month": "Month",
+      "Completed": "Completed",
+      "TrainingTime": "Training time",
+      "CorrectMoves": "Correct moves",
+      "StreakDays": "Streak: {} days",
+      "RecentHistory": "Recent history",
+      "HeroTitle": "{} of {} exercises completed",
+      "HeroSubtitle": "Your latest progress from the selected period.",
+      "SessionSitStand": "Sit to stand",
+      "SessionSitStandSubtitle": "Today - Completed 15 / 16 reps",
+      "SessionHipExtension": "Slow hip extension",
+      "SessionHipExtensionSubtitle": "Yesterday - Session stopped safely"
+    },
+    "Device": {
+      "NoDevice": "No device paired",
+      "Ready": "Device is ready",
+      "NeedsCheck": "Device needs checking",
+      "Battery": "{} - Battery {}%",
+      "Firmware": "Firmware {}",
+      "SensorsStable": "Sensors are stable",
+      "SensorsStableSubtitle": "Left/right hip and left/right knee are ready",
+      "CalibrationValid": "Calibration is still valid",
+      "CalibrationExpiry": "Expires in 31 days",
+      "Calibrate": "Calibrate",
+      "Diagnostics": "Diagnostics",
+      "HeroTitle": "Exoskeleton is connecting",
+      "HeroSubtitle": "Battery {}% - {}",
+      "ModelTitle": "Interactive device view",
+      "ModelSubtitle": "Drag the ↕ hip point vertically to raise or lower the thigh, and the ↕ knee point to flex or extend the shin. R/L mark the feet.",
+      "ModelLoading": "Preparing 3D device view…",
+      "ModelUnavailable": "3D view is available on Android, iOS, and web.",
+      "PairedModel": "Paired EXO-SLT",
+      "ViewDeviceTooltip": "View device",
+      "PairDeviceTitle": "No device paired",
+      "PairDeviceMessage": "Pair a device to start assisted training.",
+      "NotReady": "Device is not ready"
+    },
+    "Profile": {
+      "FallbackName": "Patient",
+      "PatientAccount": "Patient account",
+      "NoEmail": "No email added",
+      "UploadPhoto": "Upload photo",
+      "UploadSuccess": "Profile photo uploaded",
+      "UploadFailed": "Could not upload photo. Check Cloudinary config.",
+      "Role": "Role",
+      "Status": "Status",
+      "Active": "Active",
+      "AccountSection": "Account",
+      "SettingsSection": "Settings",
+      "PersonalProfile": "Personal profile",
+      "PersonalProfileSubtitle": "Name, birthday, height, and therapy notes",
+      "CareNetwork": "Care network",
+      "CareNetworkSubtitle": "Doctor, caregiver, and emergency contacts",
+      "Notifications": "Notifications",
+      "NotificationsSubtitle": "Training, device, and safety alerts",
+      "Accessibility": "Accessibility",
+      "AccessibilitySubtitle": "Text size, contrast, and interaction support",
+      "Privacy": "Privacy",
+      "PrivacySubtitle": "Session data and account security",
+      "Help": "Help",
+      "HelpSubtitle": "Support center and recovery guidance",
+      "ChooseLanguage": "Choose display language",
+      "EnglishSubtitle": "Use English for the mobile interface",
+      "VietnameseSubtitle": "Use Vietnamese for the mobile interface"
+    },
+    "Notifications": {
+      "SummaryTitle": "{} unread updates",
+      "SummaryBody": "Critical safety and device updates stay grouped for quick review.",
+      "All": "All",
+      "Unread": "Unread",
+      "SafetyTitle": "Session stopped safely",
+      "SafetyBody": "Knee torque exceeded the comfort threshold. Review with your therapist before repeating.",
+      "SafetyTime": "5 min ago",
+      "TrainingTitle": "Today's training plan is ready",
+      "TrainingBody": "Three approved exercises are waiting for your next guided session.",
+      "TrainingTime": "28 min ago",
+      "DeviceTitle": "Device battery at 78%",
+      "DeviceBody": "The exoskeleton is charged enough for the current plan.",
+      "DeviceTime": "1 hour ago",
+      "CareTitle": "Therapist note added",
+      "CareBody": "Your therapist adjusted the assistance level for hip extension.",
+      "CareTime": "Yesterday"
+    },
+    "Home": {
+      "CompletedExercises": "Completed",
+      "TrainingTime": "Training time",
+      "CorrectMoves": "Correct moves",
+      "NeedsAttention": "Needs attention",
+      "Greeting": "Hello, {}",
+      "HeroSubtitle": "Let's keep today's training light and steady.",
+      "LoadFailedTitle": "Could not load today's data",
+      "LoadFailedSubtitle": "Check your connection or try again later.",
+      "NoExerciseTitle": "No exercises today",
+      "NoExerciseSubtitle": "You can view the approved exercise list.",
+      "StartExercise": "Start exercise",
+      "Assistance": "Assist {}",
+      "AssistanceLow": "low",
+      "AssistanceMedium": "medium",
+      "AssistanceHigh": "high",
+      "NoAlerts": "No alerts to review."
+    }
+  },
+  "Hello": "Hello",
+  "Username": "Email",
+  "Password": "Password",
+  "Login": "Login"
+}

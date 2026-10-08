@@ -1,0 +1,26 @@
+safety_gateway:
+  ros__parameters:
+    max_assist_percent: 40.0
+    command_timeout_sec: 0.5
+    # Development-safe default: stays armed-off until hardware adapter exists.
+    estop_active: true
+    # Commissioning only: allow high-level exercise forwarding while the
+    # actuator/E-stop adapter is absent. No motor command is enabled.
+    exercise_commissioning_mode: true
+
+uart_bridge:
+  ros__parameters:
+    # ESP32 USB Type-C CP210x adapter. The Pi exposes it as ttyUSB0.
+    device: /dev/ttyUSB0
+    baudrate: 921600
+    reconnect_sec: 2.0
+
+fall_detector:
+  ros__parameters:
+    model_path: /home/robot/fall_detection_6axis_float32_frozen.tflite
+    device_id: exo-leg-1
+    window_size: 200
+    inference_stride: 50
+    fall_threshold: 0.80
+    confirm_windows: 2
+    alert_cooldown_sec: 10.0
